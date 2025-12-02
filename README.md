@@ -169,7 +169,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Talexu Team** - [@talexu](https://twitter.com/talexu)
 
-Project Link: [https://github.com/yourusername/Talexu](https://github.com/yourusername/Talexu)
+Project Link: [https://github.com/yourusername/Talexu](https://rakib-data-scientist.github.io/Talexu/)
 
 ---
 
