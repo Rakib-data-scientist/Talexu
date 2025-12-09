@@ -21,9 +21,10 @@ export default function Header() {
           <img 
             src="/logo-small.png" 
             alt="Talexu Logo" 
-            className="w-10 h-10 object-contain"
+            className="w-10 h-10 object-contain mix-blend-lighten opacity-90 hover:opacity-100 transition-opacity"
             srcSet="/logo-small.png 128w, /logo-medium.png 256w, /logo-large.png 512w"
             sizes="(max-width: 768px) 40px, 48px"
+            style={{ filter: 'brightness(1.1)' }}
           />
           <span className="text-xl font-bold text-white tracking-tight">Talexu</span>
         </div>

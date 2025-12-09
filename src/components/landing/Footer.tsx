@@ -13,7 +13,8 @@ export default function Footer() {
               <img 
                 src="/logo-small.png" 
                 alt="Talexu Logo" 
-                className="w-10 h-10 object-contain"
+                className="w-10 h-10 object-contain mix-blend-lighten opacity-90"
+                style={{ filter: 'brightness(1.1)' }}
               />
               <span className="text-2xl font-bold tracking-tight">Talexu</span>
             </div>
