@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Linkedin, Twitter, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 
 export default function Footer() {
   return (
@@ -18,13 +19,13 @@ export default function Footer() {
               Talexu connects US startups and enterprises with pre-vetted, high-performing engineering talent across 45+ tech stacks. Scale faster, smarter, and more cost-effectively.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all text-white/60">
+              <a href="https://www.linkedin.com/company/talexu/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all text-white/60">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-400 hover:text-white transition-all text-white/60">
+              <a href="https://x.com/TalexuAI" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-400 hover:text-white transition-all text-white/60">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-orange-500 hover:text-white transition-all text-white/60">
+              <a href="https://medium.com/@talexu" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-orange-500 hover:text-white transition-all text-white/60">
                 <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v15A1.5 1.5 0 0 0 2.5 21H21a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 21 3H2.5z"/>
                   <path d="M6.5 7h11v2.5h-11V7zm0 4h11v2.5h-11V11zm0 4h11v2.5h-11V15z" fill="#020202"/>
@@ -34,31 +35,35 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-6">Company</h4>
+            <h4 className="text-lg font-bold mb-6">Quick Links</h4>
             <ul className="space-y-4 text-white/60">
-              <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+              <li><Link href="/contact" className="hover:text-white transition-colors">Contact Us</Link></li>
+              <li><a href="#features" className="hover:text-white transition-colors">Features</a></li>
+              <li><a href="#process" className="hover:text-white transition-colors">How It Works</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-6">Resources</h4>
+            <h4 className="text-lg font-bold mb-6">Legal</h4>
             <ul className="space-y-4 text-white/60">
-              <li><a href="#" className="hover:text-white transition-colors">Hiring Guide</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">FAQ</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
+              <li><Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/terms-conditions" className="hover:text-white transition-colors">Terms & Conditions</Link></li>
+              <li><Link href="/cancellation-refund" className="hover:text-white transition-colors">Cancellation & Refund</Link></li>
+              <li><Link href="/shipping-delivery" className="hover:text-white transition-colors">Shipping & Delivery</Link></li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/40 text-sm">
-            © 2025 Talexu Inc. All rights reserved.
+            © 2025 by Talexu.com. All rights reserved.
           </p>
-          <div className="flex gap-8 text-sm text-white/40">
-            <a href="#" className="hover:text-white transition-colors">Terms</a>
-            <a href="#" className="hover:text-white transition-colors">Privacy</a>
+          <div className="flex gap-6 text-sm text-white/40">
+            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms-conditions" className="hover:text-white transition-colors">Terms & Conditions</Link>
+            <Link href="/cancellation-refund" className="hover:text-white transition-colors">Refund Policy</Link>
+            <Link href="/shipping-delivery" className="hover:text-white transition-colors">Service Delivery</Link>
+            <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
           </div>
         </div>
       </div>

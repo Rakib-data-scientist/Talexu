@@ -26,14 +26,14 @@ export default function Header() {
 
         <div className="hidden md:flex items-center gap-4">
           <button
-            onClick={() => window.open("https://calendly.com/rakib-ai-ds/30min", "_blank")}
+            onClick={() => window.open("https://calendly.com/talexu-support/30min", "_blank")}
             className="bg-white text-black hover:bg-white/90 rounded-full px-6 py-2 font-semibold transition-all"
             data-testid="button-start-hiring"
           >
             Start Hiring
           </button>
           <button
-            onClick={() => window.open("https://calendly.com/rakib-ai-ds/30min", "_blank")}
+            onClick={() => window.open("https://calendly.com/talexu-support/30min", "_blank")}
             className="bg-white text-black hover:bg-white/90 rounded-full px-6 py-2 font-semibold transition-all"
             data-testid="button-become-partner"
           >

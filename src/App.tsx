@@ -5,11 +5,21 @@ import { QueryClientProvider } from "@tanstack/react-query";
 // import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/home";
+import PrivacyPolicy from "@/pages/privacy-policy";
+import TermsConditions from "@/pages/terms-conditions";
+import Contact from "@/pages/contact";
+import CancellationRefund from "@/pages/cancellation-refund";
+import ShippingDelivery from "@/pages/shipping-delivery";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/privacy-policy" component={PrivacyPolicy} />
+      <Route path="/terms-conditions" component={TermsConditions} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/cancellation-refund" component={CancellationRefund} />
+      <Route path="/shipping-delivery" component={ShippingDelivery} />
       <Route component={NotFound} />
     </Switch>
   );

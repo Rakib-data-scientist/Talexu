@@ -7,21 +7,21 @@ import payrollImg from "@assets/generated_images/payroll_dashboard_ui_mockup.png
 const features = [
   {
     id: 1,
-    title: "Outcome-Driven Vetting",
+    title: "1500+ Rigorously Filtered Tech Experts",
     description: "We don't just check boxes. Every developer has shipped production code, debugged complex systems, and delivered results under pressure.",
     image: talentImg,
     color: "bg-blue-50",
   },
   {
     id: 2,
-    title: "Global Work Culture Ready",
+    title: "99% collaboration score",
     description: "Our developers understand US startup culture, communicate fluidly in English, and work best practices that align with your team's cadence.",
     image: calendarImg,
     color: "bg-purple-50",
   },
   {
     id: 3,
-    title: "Seamless Replacement Guarantee",
+    title: "30 Day Free Replacement",
     description: "If a developer isn't clicking with your team within 30 days, we replace them instantly at no cost. Zero risk, full commitment.",
     image: payrollImg,
     color: "bg-green-50",

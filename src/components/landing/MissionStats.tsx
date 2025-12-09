@@ -31,7 +31,7 @@ const stats = [
 
 export default function MissionStats() {
   return (
-    <section className="py-24 bg-gradient-to-b from-[#0a0a0a] via-[#0f0f0f] to-[#0a0a0a] relative">
+    <section id="mission" className="py-24 bg-gradient-to-b from-[#0a0a0a] via-[#0f0f0f] to-[#0a0a0a] relative">
       {/* Subtle topographic overlay */}
       <svg className="absolute inset-0 w-full h-full opacity-[0.08]" preserveAspectRatio="none" viewBox="0 0 1000 400">
         <defs>
@@ -92,7 +92,7 @@ export default function MissionStats() {
         >
           <Button 
             className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white rounded-full px-8 py-3 font-bold text-lg shadow-lg"
-            onClick={() => window.open("https://calendly.com/rakib-ai-ds/30min", "_blank")}
+            onClick={() => window.open("https://calendly.com/talexu-support/30min", "_blank")}
           >
             Start hiring →
           </Button>

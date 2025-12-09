@@ -134,10 +134,10 @@ export default function HowItWorks() {
           className="text-center mt-16"
         >
           <button
-            onClick={() => window.open("https://calendly.com/rakib-ai-ds/30min", "_blank")}
+            onClick={() => window.open("https://calendly.com/talexu-support/30min", "_blank")}
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-bold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all"
           >
-            Book a demo <ArrowRight className="w-5 h-5" />
+            Start Hiring <ArrowRight className="w-5 h-5" />
           </button>
         </motion.div>
       </div>

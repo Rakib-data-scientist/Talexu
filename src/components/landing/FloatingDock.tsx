@@ -4,7 +4,7 @@ import { Users, Briefcase, Layers, FileText, CreditCard } from "lucide-react";
 const navItems = [
   { icon: Users, label: "About", href: "#mission" },
   { icon: Briefcase, label: "Talent", href: "#features" },
-  { icon: Layers, label: "Process", href: "#benefits" },
+  { icon: Layers, label: "Process", href: "#process" },
   { icon: FileText, label: "Case Studies", href: "#case-studies" },
   { icon: CreditCard, label: "Pricing", href: "#cta" },
 ];

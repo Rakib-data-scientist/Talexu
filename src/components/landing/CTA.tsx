@@ -30,7 +30,7 @@ export default function CTA() {
           transition={{ delay: 0.2 }}
         >
           <button
-            onClick={() => window.open("https://calendly.com/rakib-ai-ds/30min", "_blank")}
+            onClick={() => window.open("https://calendly.com/talexu-support/30min", "_blank")}
             className="bg-[#1A91FF] hover:bg-[#1570C9] text-white rounded-full h-16 px-10 text-xl font-bold shadow-[0_0_40px_-10px_rgba(26,145,255,0.6)] transition-all hover:scale-105"
             data-testid="button-become-partner"
           >
