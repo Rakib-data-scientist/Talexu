@@ -17,10 +17,14 @@ export default function Header() {
       }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white font-bold">
-            T
-          </div>
+        <div className="flex items-center gap-3">
+          <img 
+            src="/logo-small.png" 
+            alt="Talexu Logo" 
+            className="w-10 h-10 object-contain"
+            srcSet="/logo-small.png 128w, /logo-medium.png 256w, /logo-large.png 512w"
+            sizes="(max-width: 768px) 40px, 48px"
+          />
           <span className="text-xl font-bold text-white tracking-tight">Talexu</span>
         </div>
 
