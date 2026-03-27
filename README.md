@@ -24,8 +24,6 @@ Hire proven engineers in 5–12 days with zero hiring risk.
 ⚡ **Rapid Hiring** - Hire proven engineers in just 5-12 days  
 🛡️ **Zero Risk** - Vetted professionals with enterprise experience  
 💼 **Streamlined Process** - Modern, efficient hiring workflow  
-🎨 **Beautiful UI** - Stunning 3D backgrounds and smooth animations  
-📱 **Fully Responsive** - Perfect experience on any device
 
 ---
 
