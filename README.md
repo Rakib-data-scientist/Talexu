@@ -8,9 +8,6 @@
 Hire proven engineers in 5–12 days with zero hiring risk.
 
 [![Deploy Status](https://github.com/yourusername/Talexu/actions/workflows/static.yml/badge.svg)](https://github.com/yourusername/Talexu/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?logo=react)](https://react.dev)
-[![Powered by Vite](https://img.shields.io/badge/Powered%20by-Vite-646CFF?logo=vite)](https://vitejs.dev)
 
 [Live Demo](https://yourusername.github.io/Talexu/) • [Report Bug](../../issues) • [Request Feature](../../issues)
 
